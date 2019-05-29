@@ -14,5 +14,5 @@ a {
   font-size: 20pt;
 }
 a {
-  font-style: caveat;
+  font-variant: inherit;
 }
