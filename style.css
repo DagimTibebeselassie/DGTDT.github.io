@@ -14,5 +14,5 @@ a {
   font-size: 20pt;
 }
 a {
-  font font-family: 'cursive';
+  font font-family: 'cursive' cursive;
 }
