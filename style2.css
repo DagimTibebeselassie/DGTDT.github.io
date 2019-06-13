@@ -1,0 +1,23 @@
+body {
+  background-image: url("sucker2.jpeg");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+
+}
+
+h1 {
+  color: blue;
+  font-size: 45pt;
+}
+a {
+  color: blue;
+  font-size: 20pt;
+}
+a {
+  font font-family: 'indie flower' cursive;
+  font-size: 20pt;
+}
+.myPotrait{
+  width: 500px;
+}
