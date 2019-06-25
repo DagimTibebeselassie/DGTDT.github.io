@@ -1,5 +1,5 @@
 body {
-  background-image: url("sucker2.jpeg");
+  background-image: url("city.jpeg");
   background-repeat: no-repeat;
   height: 100%;
   background-size: cover;
@@ -7,11 +7,11 @@ body {
 }
 
 h1 {
-  color: blue;
-  font-size: 45pt;
+  color: red;
+  font-size: 27pt;
 }
 a {
-  color: blue;
+  color: red;
   font-size: 20pt;
 }
 a {
@@ -20,4 +20,10 @@ a {
 }
 .myPotrait{
   width: 500px;
+}
+
+nav {
+  list-style-type: lower-greek;
+  margin: 0;
+  padding: 0;
 }

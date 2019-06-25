@@ -1,5 +1,5 @@
 body {
-  background-image: url("1359563471926476945.gif");
+  background-image: url("sucker2.jpeg");
   background-repeat: no-repeat;
   height: 100%;
   background-size: cover;
@@ -9,10 +9,24 @@ h1 {
   color: white;
   font-size: 70pt;
 }
-a {
+h2 {
   color: white;
-  font-size: 20pt;
+  font-size: 35pt;
+}
+h3 {
+  color: black;
+  font-size: 35pt:
 }
 a {
+  color: white;
+  font-size: 15pt;
   font font-family: 'indie flower' cursive;
+}
+a2 {
+  color: black;
+  font-size: 15pt
+}
+img {
+  margin-left: 5px;
+  margin-top: 200px;
 }
