@@ -7,11 +7,11 @@ body {
 }
 
 h1 {
-  color: red;
+  color: white;
   font-size: 27pt;
 }
 a {
-  color: red;
+  color: white;
   font-size: 20pt;
 }
 a {
@@ -21,9 +21,8 @@ a {
 .myPotrait{
   width: 500px;
 }
-
-nav {
-  list-style-type: lower-greek;
-  margin: 0;
-  padding: 0;
+img {
+  margin-top: 0px;
+  height: 10px;
+  width: 10px;
 }
