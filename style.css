@@ -14,7 +14,7 @@ h2 {
   font-size: 35pt;
 }
 h3 {
-  color: black;
+  color: white;
   font-size: 35pt:
 }
 a {
@@ -23,10 +23,17 @@ a {
   font font-family: 'indie flower' cursive;
 }
 a2 {
-  color: black;
+  color: white;
   font-size: 15pt
 }
+
 img {
   margin-left: 5px;
-  margin-top: 200px;
+  margin-top: 70px;
+}
+.poop {
+  margin-left: 1040px;
+  margin-top: 0px;
+  height: 300px;
+  width: 300px;
 }
