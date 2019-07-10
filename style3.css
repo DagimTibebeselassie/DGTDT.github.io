@@ -2,3 +2,21 @@ h1 {
   color: black;
   font-size: 70pt;
 }
+a {
+  color: black;
+font-size: 25pt;
+}
+body {
+  background-image: url("eth.jpeg");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+}
+img {
+  height: 276px;
+  width: 276px;
+  margin-left: 1000px;
+}
+address {
+  font-size: 40px;
+}
