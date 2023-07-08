@@ -1,39 +1,183 @@
-body {
-  background-image: url("sucker2.jpeg");
-  background-repeat: no-repeat;
-  height: 100%;
-  background-size: cover;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
-h1 {
-  color: white;
-  font-size: 70pt;
-}
-h2 {
-  color: white;
-  font-size: 35pt;
-}
-h3 {
-  color: white;
-  font-size: 35pt:
-}
-a {
-  color: white;
-  font-size: 15pt;
-  font font-family: 'indie flower' cursive;
-}
-a2 {
-  color: white;
-  font-size: 15pt
+
+.intro{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-img {
-  margin-left: 5px;
-  margin-top: 70px;
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1); /* Adjust the opacity as desired */
+  }
+
+  .overlay2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100;
+    background-color: rgba(0, 0, 0, 0.3); /* Adjust the opacity as desired */
+  }
+
+nav{
+    margin-top: 30px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2px 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.poop {
-  margin-left: 1040px;
-  margin-top: 0px;
-  height: 300px;
-  width: 300px;
+
+nav h2{
+    font-size: 40px;
+    color: white;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    padding: 16px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.content{
+    text-align: center;
+    z-index: 1;
+}
+
+.content h1{
+    font-size: 100px;
+    color: white;
+}
+
+.background2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.backgroundv{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .mid {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .mid p{
+    margin-top: -400px;
+    margin-left: 40px;
+    width: 140vh;
+    font-size: 32px;
+  }
+  .mid img{
+    height: 100vh;
+    margin-left: 220px;
+    width: 75vh;
+  }
+
+  .mid a{
+    padding: 10px;
+    font-size: 27px;
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    border: rgb(255, 0, 0) solid 3px;
+    border-radius: 30px;
+    margin-top: 300px;
+    margin-left: 800px;
+  }
+
+.ending{
+    width: cover;
+    height: 1010px;
+}
+
+.ending h3{
+    position: absolute;
+    z-index: 1;
+    margin: 50px;
+    margin-left: 40px;
+    color: white;
+    font-size: 37px;
+}
+
+.ending p{
+    position: absolute;
+    z-index: 1;
+    margin: 130px;
+    margin-left: 40px;
+    color: white;
+    font-size: 27px;
+}
+
+.footer{
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer a{
+    font-size: 30px;
+    padding: 30px;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: -30px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.icons .fa{
+    color: #000000;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.fa-heart-o{
+    color: #ff0000;
+}
+.info a{
+    list-style: none;
+    display: block;
+    padding: 10px 22px;
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.footer p{
+    
 }
