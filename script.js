@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded',function(event){
     // array with texts to type in typewriter
-    var dataText = [ "Introducing", "Dagim", "Tibebeselassie", "Visionary", "የእግዚአብሔር ሰው", "Creative Force", "Igniting Imagination", "Bold Vision"];
+    var dataText = [ "YVIP Top 20 Finalist", "Computer Science Major", "Tibebeselassie", "Best Buy Sales Advisor", "Ethiopian", "Orthodox Tewahedo"];
     
     // type one text in the typwriter
     // keeps calling itself until the text is finished
@@ -40,3 +40,4 @@ document.addEventListener('DOMContentLoaded',function(event){
     // start the text animation
     StartTextAnimation(0);
   });
+
