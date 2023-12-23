@@ -212,5 +212,49 @@ ul{
 }
 }
 
+/* Responsive design */
+@media screen and (max-width: 767px) {
+    /* Navigation */
+    nav ul {
+        margin-top: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    /* Title */
+    .content h1 {
+        font-size: 50px;
+    }
+
+    /* Paragraph Part */
+    .curvy-box {
+        flex-direction: column-reverse; /* Change the order for mobile */
+        height: auto;
+        width: 90vw;
+        padding: 30px;
+    }
+
+    .curvy-box img {
+        width: 100%;
+        height: auto;
+        margin: 0; /* Reset margin for mobile */
+    }
+
+    .curvy-box p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    /* Further adjustments for smaller screens */
+    .curvy-box {
+        width: 100%;
+    }
+}
 
 
