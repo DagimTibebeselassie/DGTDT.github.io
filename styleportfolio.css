@@ -13,7 +13,8 @@
     animation: fadeIn 6s forwards;
     color: #e9dc1e;
     font-family: 'Long Cang', cursive;
-    font-size: 70px;
+    font-size: 90px;
+    text-decoration: none;
 }
 
 .YVIP p{
@@ -69,7 +70,8 @@
     }
 }
 
-.YVIP h3{
+.YVIP a{
+    text-decoration: none;
     position: absolute;
     color: white;
     right: 240px;
